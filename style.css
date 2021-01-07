@@ -12,14 +12,14 @@ h1{
 
 .half-width
 {
-    width: 38%;
+    width: 40%;
     float: left;
     margin: 3%;
     padding: 2%;
 }
 .half-width img
 {
-    width: 75%;
+    width: 100%;
 }
 .top-banner
 {
@@ -28,8 +28,9 @@ h1{
 }
 
 section
-{
+{   
     height: 500px;
+    padding-bottom: 120px;
 }
 
 .link_button
@@ -41,4 +42,24 @@ section
     color: papayawhip;
     border-radius: 5px;
     background-image: linear-gradient(lightsalmon, tomato);
+}
+
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+
+.dream-area
+{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.expo
+{
+    height: 500px;
+    padding-bottom: 120px;
 }
