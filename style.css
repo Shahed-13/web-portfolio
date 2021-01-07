@@ -63,16 +63,31 @@ p{
     background-repeat: no-repeat;
     padding-bottom: 120px;
     background-position: left;
+    
 }
 .single-expo
 {
     box-shadow: 10px 10px 30px gray;
     border-radius: 5px;
     height: 80%;
+    background-color: white;
 }
-#full-stack
+
+#full
 {
-    border-left: 0px solid;
-    border-image: linear-gradient(lightsalmon, tomato);
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
     border-image-slice: 1;
+}
+
+#baby
+{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+
+footer p
+{
+    text-align: center;
 }
